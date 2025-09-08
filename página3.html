@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fã Clube Bingo</title>
+    <link rel="stylesheet" href="style4.css"/> <!--Link com o css-->
+  </head>
+  <body>
+    <header><h1>Entre em contato!</h1></header> <!--Cabeçalho com título-->
+    <nav> <!--Barra de navegação com a logo e o link direto para as outras páginas-->
+        <div class="logo">
+            <a href="index.html">
+            <img src="imagens/Logo.png" alt="Logo do fã clube" />
+            </a>
+          </div>
+      <ul>  <!--Links das outras páginas-->
+        <li><a href="index.html">Home</a></li>
+        <li><a href="página1.html">Sobre</a></li>
+        <li><a href="página2.html">Serviços</a></li>
+        <li><a href="página3.html">Contato</a></li>
+      </ul>
+    </nav>
+    
+    <main class="contato">
+        <form class="formulario"> <!--Formulário-->
+        <h1>Insira seus dados:</h1> <!--Título do formulário-->
+        <label for="nome">Nome:</label> <!--Texto escrito nome-->
+        <input type="text" id="nome" name="nome" required /> <!--Campo para inserir o nome-->
+  
+        <label for="email">Email:</label> <!--Texto escrito email-->
+        <input type="email" id="email" name="email" required /> <!--Campo para inserir o email-->
+  
+        <button type="submit">Enviar</button> <!--Botão de submit-->   
+        </form>
+    </main>
+
+    <footer> <!--Footer com a logo das redes sociais e copyright-->
+        <div class="redes">
+            <img src="imagens/instagram.png" alt="Instagram" />
+            <img src="imagens/facebook.png" alt="Facebook" />
+            <img src="imagens/twitter.png" alt="Twitter/X" />
+        </div>
+      <p>
+        &copy;<span id="year">2025</span> BingoFC. Todos os direitos
+        reservados
+      </p>
+    </footer>
+  </body>
+</html>
